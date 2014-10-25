@@ -23,3 +23,11 @@ By having the last known state of the remote stored locally, every change up to 
 You could use Google Drive, or even just email files back and forth between collaborators. 
 
 That would be difficult because there would be no "merging," just one master copy.
+
+## When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have? ##
+
+If I wanted to try out an experimental feature, I would use a new branch to break the code and play around with the code and see what everything does. That way if anything does end up breaking, the master branch isn't affected. 
+
+The benefits to making a new branch is that you can have essentially two "versions" of the same code, one being in "beta," and the other being the stable release. 
+
+But then you can get too branch-happy and have too many branches to manage.
